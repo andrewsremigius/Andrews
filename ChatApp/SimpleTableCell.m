@@ -8,6 +8,7 @@
 
 #import "SimpleTableCell.h"
 
+
 @implementation SimpleTableCell
 @synthesize nameLabel = _nameLabel;
 @synthesize imageview = _imageview;
@@ -24,7 +25,7 @@
 {
     [super setSelected:selected animated:animated];
     
-    // Configure the view for the selected state
+    // Configure the view for the selected state thanks
 }
 
 @end
